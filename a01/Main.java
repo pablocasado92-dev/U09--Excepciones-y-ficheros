@@ -12,7 +12,6 @@ public class Main {
             try{
                 System.out.print("Ingrese un número entero: ");
                 n = sc.nextInt();
-                return n;
             }catch(InputMismatchException e){
                 System.out.println("El número introducido tiene que ser de tipo entero");
                 sc.nextLine();  
