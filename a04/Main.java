@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        String ruta = "src/a02/ficheros/numeros1.txt";
+        String ruta = "src/ficheros/numeros1.txt";
 
         try {
             double[] resultados = leerYCalcular(ruta);

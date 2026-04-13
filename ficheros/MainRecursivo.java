@@ -1,4 +1,4 @@
-package a02.ficheros;
+package ficheros;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;

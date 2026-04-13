@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         BufferedReader in = null;
         try {
-            in = new BufferedReader(new FileReader("src/a02/ficheros/MainRecursivo.java"));
+            in = new BufferedReader(new FileReader("src/ficheros/MainRecursivo.java"));
             String linea= in.readLine();
             while (linea != null) {
                 System.out.println(linea);

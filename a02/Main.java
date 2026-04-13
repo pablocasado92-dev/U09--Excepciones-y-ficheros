@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         FileReader in = null;
         try{
-        in = new FileReader("src/a02/ficheros/MainRecursivo.java");
+        in = new FileReader("src/ficheros/MainRecursivo.java");
         int caracter =in.read();
         while (caracter != -1) {
             System.out.print((char) caracter);
