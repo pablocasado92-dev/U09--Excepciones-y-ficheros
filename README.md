@@ -7,5 +7,6 @@ Repositorio para las actividades de la Unidad Didáctica 09.
 Las actividades están organizadas en carpetas:
 
 - `A01` - Actividad con try-catch, con 3 versiones distintas
+- `A02` - Lectura de ficheros usando FileReader
 
 *(Cada carpeta contiene sus archivos `.java` correspondientes)*
