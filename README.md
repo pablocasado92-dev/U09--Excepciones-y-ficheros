@@ -10,5 +10,6 @@ Las actividades están organizadas en carpetas:
 - `A02` - Lectura de ficheros usando FileReader
 - `A03` - Lectura de ficheros usando BufferReader
 - `A04` - Lectura de ficheros y procesamiento de datos
+- `ficheros` - Carpeta con los diferentes ficheros
 
 *(Cada carpeta contiene sus archivos `.java` correspondientes)*
