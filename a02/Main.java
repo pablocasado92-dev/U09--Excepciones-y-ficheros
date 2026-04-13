@@ -7,9 +7,10 @@ public class Main {
         FileReader in = null;
         try{
         in = new FileReader("src/a02/ficheros/MainRecursivo.java");
-        int caracter;
-        while ((caracter = in.read()) != -1) {
-             System.out.print((char) caracter);
+        int caracter =in.read();
+        while (caracter != -1) {
+            System.out.print((char) caracter);
+            caracter =in.read();
         }  
         }catch (FileNotFoundException fnfe){
             System.out.println("No se ha encontrado el fichero");
