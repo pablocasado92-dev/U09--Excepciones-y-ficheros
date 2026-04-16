@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) {
         String ruta = "src/ficheros/quijote.txt";
         String linea1 = "En un lugar de la mancha,";
-        char[] linea1array = linea1.toCharArray();
         String linea2 = "de cuyo nombre no quiero acordarme";
 
         FileWriter fw = null;
@@ -19,7 +18,7 @@ public class Main {
             bw = new BufferedWriter(fw);          
 
             // Línea 1 con FileWriter
-            for (char c : linea1array) {
+            for (char c : linea1.toCharArray()) {
                 fw.write(c);
             }
             //fw.flush();   // fundamental para que se vea la línea 1
